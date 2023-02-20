@@ -1,9 +1,6 @@
 #ifndef SORT_H
 #define SORT_H
 
-#define INCREMENT 1
-#define DECREMENT -1
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -36,7 +33,7 @@ void quick_sort(int *array, size_t size);
 /* Advanced task prototypes */
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
-void swap_node(listint_t **list, listint_t *node);
-listint_t *get_dlistint_elem(listint_t *h);
+void swap_nodes(listint_t **list, listint_t **p);
+size_t list_len(listint_t *list);
 
 #endif
