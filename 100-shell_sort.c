@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- * swap_item - swaped 2 values
- * @array: the array for swap him values
+ * swap_item - swaped two values
+ * @array: the array
  * @i: first index
  * @j: second index
  * Return: void
